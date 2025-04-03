@@ -1,0 +1,179 @@
+{
+  "playlist": "Stack and Queue Playlist | Language Independent Series",
+  "total_videos": 19,
+  "total_minutes": 462,
+  "daily_study_time": 120,
+  "deadline": "2025-04-24",
+  "start_date": "2025-04-03",
+  "days_required": 4,
+  "daily_schedule": [
+    {
+      "day": 1,
+      "date": "2025-04-03",
+      "videos": [
+        {
+          "title": "L1. Introduction to Stack and Queue | Implementation using Data Structures",
+          "videoId": "tqQ5fTamIN4",
+          "duration": 65,
+          "completed": false,
+          "notes": "Understanding the basic concepts of Stacks and Queues.  Learn about Array and Linked List implementations, and their time complexities. Pay close attention to the differences and when to use one over the other."
+        },
+        {
+          "title": "L2. Check for Balanced Parentheses | Stack and Queue",
+          "videoId": "xwjS0iZhw4I",
+          "duration": 12,
+          "completed": false,
+          "notes": "Applying Stacks to solve a classic problem. The key is to use a stack to track opening brackets and pop when a corresponding closing bracket is found. Covers a basic application to validate parentheses."
+        },
+        {
+          "title": "L3. Prefix, Infix, and Postfix Conversion | Stack and Queue Playlist",
+          "videoId": "4pIc9UBHJtk",
+          "duration": 51,
+          "completed": false,
+          "notes": "Learn how to convert between infix, prefix, and postfix notations using Stacks. Understand the operator precedence rules. Focus on the algorithm for converting infix to postfix. Practice converting expressions manually."
+        }
+      ],
+      "total_minutes": 128,
+      "notes": "Day 1 focuses on the fundamentals of stacks and queues, along with practical applications like parentheses validation and expression conversion. Revise operator precedence rules."
+    },
+    {
+      "day": 2,
+      "date": "2025-04-04",
+      "videos": [
+        {
+          "title": "L4. Implement Min Stack | Stack and Queue Playlist",
+          "videoId": "NdDIaH91P0g",
+          "duration": 21,
+          "completed": false,
+          "notes": "Implementing a stack with the added functionality to retrieve the minimum element in O(1) time. Explore using an auxiliary stack to keep track of minimum values."
+        },
+        {
+          "title": "L5. Next Greater Element | Stack and Queue Playlist",
+          "videoId": "e7XQLtOQM3I",
+          "duration": 18,
+          "completed": false,
+          "notes": "Understanding how to use stacks to find the next greater element in an array. The stack stores indices of elements that haven't found their next greater element yet."
+        },
+        {
+          "title": "L6. Next Greater Element - II | Stack and Queue Playlist",
+          "videoId": "7PrncD7v9YQ",
+          "duration": 16,
+          "completed": false,
+          "notes": "A variation of the Next Greater Element problem, where the array is treated as circular. The same stack-based approach can be extended by iterating through the array twice."
+        },
+        {
+          "title": "L7. Previous Smaller Element | Stack and Queue Playlist",
+          "videoId": "zMdbdGJNlh4",
+          "duration": 8,
+          "completed": false,
+          "notes": "Similar to Next Greater Element, but finding the previous smaller element. The stack maintains elements in increasing order."
+        },
+        {
+          "title": "L8. Trapping Rainwater | 2 Approaches | Stack and Queue Playlist",
+          "videoId": "1_5VuquLbXg",
+          "duration": 29,
+          "completed": false,
+          "notes": "Learn how to calculate the amount of trapped rainwater between buildings. Focus on both approaches: using two pointers and using stacks. Understand the stack-based solution's logic."
+        }
+      ],
+      "total_minutes": 92,
+      "notes": "Day 2 focuses on more complex stack applications, including finding min elements, next greater elements, and solving the trapping rainwater problem. Make sure you understand both approaches to solve Trapping Rainwater problem."
+    },
+    {
+      "day": 3,
+      "date": "2025-04-05",
+      "videos": [
+        {
+          "title": "L9. Sum of Subarray Minimum | Stack and Queue Playlist",
+          "videoId": "v0e8p9JCgRc",
+          "duration": 24,
+          "completed": false,
+          "notes": "Learn how to calculate the sum of minimum elements of all subarrays. Use stacks to find the previous and next smaller elements for each element in the array to determine the span for which the element is the minimum."
+        },
+        {
+          "title": "L10. Sum of subarray ranges | Stack and Queue Playlist",
+          "videoId": "gIrMptNPf5M",
+          "duration": 11,
+          "completed": false,
+          "notes": "Calculate the sum of the differences between the largest and smallest elements in each subarray. Build upon the previous techniques of using stacks to find next smaller and next greater elements efficiently."
+        },
+        {
+          "title": "L11. Aestroid Collisions | Stack and Queue Playlist",
+          "videoId": "_eYGqw_VDR4",
+          "duration": 17,
+          "completed": false,
+          "notes": "Simulate asteroid collisions using a stack. Positive values represent asteroids moving right, negative values move left. The stack helps manage collisions."
+        },
+        {
+          "title": "L12. Largest Rectangle in Histogram | Stack and Queue Playlist",
+          "videoId": "Bzat9vgD0fs",
+          "duration": 32,
+          "completed": false,
+          "notes": "Use stacks to solve the problem of finding the largest rectangular area under a histogram. The stack stores indices of bars in increasing order of height. This is a tricky application of stacks."
+        },
+        {
+          "title": "L13. Maximal Rectangle | Stack and Queue Playlist",
+          "videoId": "ttVu6G7Ayik",
+          "duration": 12,
+          "completed": false,
+          "notes": "Extending the Largest Rectangle in Histogram problem to a 2D binary matrix. Treat each row as a histogram and apply the largest rectangle algorithm."
+        }
+      ],
+      "total_minutes": 96,
+      "notes": "Day 3 focuses on more advanced stack applications, including finding subarray minimums, asteroid collisions, and solving the largest rectangle in histogram and maximal rectangle problems. Revisit Largest Rectangle in Histogram if needed."
+    },
+    {
+      "day": 4,
+      "date": "2025-04-06",
+      "videos": [
+        {
+          "title": "L14. Remove K Digits | Stack and Queue Playlist",
+          "videoId": "jmbuRzYPGrg",
+          "duration": 15,
+          "completed": false,
+          "notes": "Given a number as a string, remove k digits to get the smallest possible number. Use a stack to maintain a decreasing sequence of digits."
+        },
+        {
+          "title": "L15. Stock Span Problem | Stack and Queue Playlist",
+          "videoId": "eay-zoSRkVc",
+          "duration": 19,
+          "completed": false,
+          "notes": "Calculating the span of a stock's price for each day. Use a stack to store indices of previous days with higher prices."
+        },
+        {
+          "title": "L16. Sliding Window Maximum | Stack and Queue Playlist",
+          "videoId": "NwBvene4Imo",
+          "duration": 20,
+          "completed": false,
+          "notes": "Find the maximum element in each sliding window of size k. Explore using a deque (double-ended queue) to efficiently maintain the potential maximum elements."
+        },
+        {
+          "title": "L17. The Celebrity Problem | Stack and Queue Playlist",
+          "videoId": "cEadsbTeze4",
+          "duration": 16,
+          "completed": false,
+          "notes": "Find the celebrity in a group of people, where a celebrity is known by everyone but doesn't know anyone. Use a stack to efficiently narrow down the potential candidates."
+        },
+        {
+          "title": "L18. Implement LRU Cache",
+          "videoId": "z9bJUPxzFOw",
+          "duration": 25,
+          "completed": false,
+          "notes": "Learn how to implement an LRU (Least Recently Used) cache using a combination of a hash map and a doubly linked list. Understand the time complexities of each operation."
+        },
+        {
+          "title": "Implement LFU cache in C++/Java  | Leetcode(Hard)",
+          "videoId": "mzqHlAW7jeE",
+          "duration": 18,
+          "completed": false,
+          "notes": "Learn how to implement an LFU (Least Frequently Used) cache, which is a more complex caching strategy compared to LRU. Requires understanding of frequency counters and data structures for efficient eviction."
+        }
+      ],
+      "total_minutes": 113,
+      "notes": "Day 4 covers a diverse range of stack and queue problems, including removing digits, stock span, sliding window maximum, celebrity problem, and caching implementations. It includes the implementation of LRU and LFU Cache, which are more complex and should be given additional time. Consider reviewing the fundamentals of hashmaps and doubly linked lists before tackling the LRU and LFU implementations. Revise all the concepts and solve practice problems."
+    }
+  ],
+  "users": [
+    "varaddeshpande81@gmail.com"
+  ]
+}
