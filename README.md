@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📚 AI-Powered Study Plan Generator
 
-## Getting Started
+## 🚀 Overview
+This project is a *Next.js-based web application* designed to enhance self-study by providing structured learning plans from YouTube playlists and PDFs. It integrates *AI-powered features* for generating study plans, summaries, quizzes, and flashcards, along with *gamification elements* to keep learners engaged.
 
-First, run the development server:
+## ✨ Features
+- *YouTube Playlist to Study Plan* 📺: Extracts video insights and generates a structured learning plan.
+- *PDF to Study Plan* 📄: Converts PDFs (syllabi, lecture notes, etc.) into structured study plans.
+- *AI Chat Customization* 🤖: Users can refine plans in natural language using NLP techniques.
+- *AI Summaries* ✍: Generates concise video summaries for quick learning.
+- *AI Quiz Generator* 🎯: Creates interactive quizzes based on video content.
+- *AI Flashcards* 🔥: Auto-generates flashcards for efficient revision.
+- *Subdomain-Based Deployment* 🌐: Each study plan is deployed for progress tracking.
+- *Gamification & Future Scope* 🎮: XP, streak badges, and a mentor connect feature (upcoming).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠 Tech Stack
+- *Frontend:* [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/)
+- *AI & NLP:* [Gemini LLM (2.0 Flash)](https://ai.google.dev/), NLP techniques
+- *APIs & Integrations:* [YouTube Data API](https://developers.google.com/youtube/v3)
+- *Hosting & Deployment:* [Vercel](https://vercel.com/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗 Installation & Setup
+### Prerequisites
+- Node.js (>= 18.x)
+- npm or yarn
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Steps to Run Locally
+bash
+# Clone the repository
+git clone https://github.com/yourusername/repo-name.git
+cd repo-name
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Install dependencies
+npm install  # or yarn install
 
-## Learn More
+# Set up environment variables
+cp .env.example .env
+# Add API keys for Gemini LLM, YouTube API, etc.
 
-To learn more about Next.js, take a look at the following resources:
+# Run the development server
+npm run dev  # or yarn dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Visit [http://localhost:3000](http://localhost:3000) to explore the app.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏗 Deployment
+This project is deployed on *Vercel*. To deploy your own version:
+bash
+vercel
 
-## Deploy on Vercel
+Or set up a GitHub Actions workflow for automatic deployments.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📌 Usage
+1. *Enter a YouTube playlist link or upload a PDF*
+2. *Generate a structured study plan*
+3. *Customize the plan using AI chat*
+4. *Use AI-powered summaries, quizzes, and flashcards for revision*
+5. *Track progress on a dedicated subdomain*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📅 Future Enhancements
+- *Community Feature* 👥: Students can collaborate & discuss study plans.
+- *Mentor Connect* 🎓: Connect with experts for guidance.
+- *More Learning Resources* 📖: Support for different content sources beyond YouTube & PDFs.
+
+## 🤝 Contributing
+We welcome contributions! Feel free to submit issues, feature requests, or pull requests.
+
+## 📜 License
+This project is open-source under the [MIT License](LICENSE).
+
+## 📬 Contact
+For queries or collaborations, reach out at [your-email@example.com](mailto:your-email@example.com) or create an issue on GitHub.
