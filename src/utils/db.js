@@ -1,10 +1,8 @@
 import mongoose from "mongoose";
 
 const MONGODB_URI = process.env.MONGO_URL;
+console.log("MONGODB_URI:", MONGODB_URI);
 
-if (!MONGODB_URI) {
-  throw new Error("❌ MONGO_URL is not defined in environment variables!");
-}
 
 let isConnected = false; // Track connection status
 
