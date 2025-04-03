@@ -5,6 +5,7 @@ import path from "path";
 import fs from "fs";
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+console.log("GEMINI_API_KEY:", GEMINI_API_KEY);
 const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 const STORAGE_PATH = path.join(process.cwd(), "storage.json");
 
