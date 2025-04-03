@@ -5,7 +5,6 @@ import path from "path";
 import fs from "fs";
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-console.log("GEMINI_API_KEY:", GEMINI_API_KEY);
 const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 const STORAGE_PATH = path.join(process.cwd(), "storage.json");
 
@@ -26,6 +25,7 @@ export async function POST(req) {
     const { targetDeadline, dailyTime } = await req.json();
 
     if (!targetDeadline || !dailyTime) {
+      console.log("GEMINI_API_KEY:", GEMINI_API_KEY);
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
@@ -108,7 +108,7 @@ ${videoDetails}
 Ensure the output **exactly** follows the given JSON structure. Do not add extra fields.
 Make sure **each day's plan is detailed** and provides valuable insights for efficient studying.
 `;
-
+console.log("GEMINI_API_KEY:", GEMINI_API_KEY);
     const response = await axios.post(
       `${GEMINI_API_URL}?key=${GEMINI_API_KEY}`,
       { contents: [{ role: "user", parts: [{ text: prompt }] }] },
