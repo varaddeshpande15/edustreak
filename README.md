@@ -27,7 +27,7 @@ This project is a *Next.js-based web application* designed to enhance self-study
 ### Steps to Run Locally
 bash
 # Clone the repository
-git clone https://github.com/yourusername/repo-name.git
+git clone https://github.com/varaddeshpande15/edustreak.git
 cd repo-name
 
 # Install dependencies
